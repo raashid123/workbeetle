@@ -2,109 +2,130 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Your Company Name - Services</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="style/sty.css">
-    
 </head>
 <body>
-    <header>
-        <h1 align="center">Our Services</h1>
-        <nav class="navbar">
-            <ul>
-                <li><a href="home.html">Home</a></li>
-                <li><a href="services.html">Services</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-            <div class="search-container">
-                <input type="text" id="searchInput" placeholder="Search for a service...">
-                <button type="button">Search</button>
+    <header class="bg-light text-center py-4">
+        <h1>Our Services</h1>
+        <nav class="navbar navbar-expand-md navbar-light bg-light">
+            <div class="container">
+                <a class="navbar-brand" href="#">Your Company</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item"><a class="nav-link" href="home.html">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+                        <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                    </ul>
+                    <form class="form-inline my-2 my-lg-0 ml-lg-3">
+                        <input class="form-control mr-sm-2" type="search" placeholder="Search for a service..." aria-label="Search">
+                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                    </form>
+                </div>
             </div>
         </nav>
     </header>
-    <main>
-        <section>
-            <img src="paper-work.jpg"  style="width:100%;max-width:600px;">
-            <h2>Documentation and Paper Works:</h2>
-            <p>Thorough documentation is crucial for project success. We provide comprehensive documentation services, 
-                including project reports, research papers, and technical documentation, adhering to industry standards and guidelines.
-                Our team ensures accuracy, and completeness in all documentation efforts to support your project's needs.
-            </p>
-            </p>
-            <a href="DocumentationandPaperWorks.html">Learn More</a>
-        </section>
-        <section>
-            <img src="Web Application.png" style="width:100%;max-width:600px;">
-            <h2>Web Application Development:</h2>
-            <p>In today's digital era, web applications play a crucial role in various domains.
-                We design and develop custom web applications tailored to the specific needs of our clients, 
-                ensuring seamless functionality and user experience.Our solutions are scalable and secure, 
-                leveraging the latest technologies to deliver optimal performance.
-            </p>
-            <a href="#">Learn More</a>
-        </section>
-        <section>
-            <img src="Final_Year_Project.jpg" style="width:100%;max-width:600px;">
-            <h2> Final Year Project Modules: </h2>
-            <p>We offer complete working modules for final year projects, tailored to the specific requirements of each student or team. 
-                Our expert team assists in every stage, from ideation to implementation, ensuring high-quality outcomes. We also provide 
-                ongoing support & guidance to help students successfully present and defend their projects.
-            </p>
-            </p>  
-
-            <a href="#">Learn More</a>
-        </section>
-       
-        <section>
-            <img src="Patent Services.jpg" style="width:100%;max-width:600px;">
-            <h2> Patent Services: </h2>
-            <p> Intellectual property protection is vital. We assist in patent research, drafting, and filing to safeguard innovative ideas and technologies developed during projects. 
-                Our team ensures all legal and technical requirements are met for a smooth and efficient patenting process, providing comprehensive support from start to finish.
-            </p>
-            </p>
-            <a href="#">Learn More</a>
-        </section>
-        <section>
-            <img src="Journal Works.jpg" style="width:100%;max-width:600px;">
-            <h2>Journal Works:</h2>
-            <p> Publishing research findings in reputable journals enhances credibility and visibility.
-                 We offer support in preparing and submitting manuscripts to esteemed academic journals.
-            </p>
-            <a href="#">Learn More</a>
-        </section>
-        <section>
-            <img src="Staff Development.png" style="width:100%;max-width:600px;">
-            <h2> Staff Development:</h2>
-            <p>Continuous learning is key to organizational growth. We provide training and workshops for staff members to enhance their 
-                skills and stay updated with the latest advancements in their fields.
-            </p>
-            <a href="#">Learn More</a>
-        </section>
-        <section>
-            <img src="Mini and Long-Term Courses.png" style="width:100%;max-width:600px;">
-            <h2> Mini and Long-Term Courses:</h2>
-            <p>Our curated courses cater to diverse skill levels and interests, ranging from short-term workshops 
-                to comprehensive long-term programs. Participants gain practical insights and hands-on experience under the 
-                guidance of industry experts.
-            </p>
-            <a href="#">Learn More</a>
-        </section>
-        <section>
-            <img src="Coding Works.jpeg" style="width:100%;max-width:600px;">
-            <h2>Coding Works:</h2>
-            <p> Our skilled developers offer coding support across various programming languages and platforms, 
-                ensuring robust and efficient implementations for project requirements.We also provide debugging and optimization 
-                services to improve the performance and reliability of your code.
-            </p>
-            </p>
-            <a href="#">Learn More</a>
-        </section>
-       
-        <!-- Add more sections for additional services -->
+    <main class="container py-5">
+        <div class="row">
+            <div class="col-md-6 col-lg-4 mb-4">
+                <div class="card">
+                    <img src="paper-work.jpg" class="card-img-top img-fluid" alt="Documentation and Paper Works">
+                    <div class="card-body">
+                        <h5 class="card-title">Documentation and Paper Works</h5>
+                        <p class="card-text">Thorough documentation is crucial for project success. We provide comprehensive documentation services, including project reports, research papers, and technical documentation, adhering to industry standards and guidelines.</p>
+                        <a href="DocumentationandPaperWorks.html" class="btn btn-primary">Learn More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4 mb-4">
+                <div class="card">
+                    <img src="Web Application.png" class="card-img-top img-fluid" alt="Web Application Development">
+                    <div class="card-body">
+                        <h5 class="card-title">Web Application Development</h5>
+                        <p class="card-text">In today's digital era, web applications play a crucial role in various domains. We design and develop custom web applications tailored to the specific needs of our clients, ensuring seamless functionality and user experience.</p>
+                        <a href="#" class="btn btn-primary">Learn More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4 mb-4">
+                <div class="card">
+                    <img src="Final_Year_Project.jpg" class="card-img-top img-fluid" alt="Final Year Project Modules">
+                    <div class="card-body">
+                        <h5 class="card-title">Final Year Project Modules</h5>
+                        <p class="card-text">We offer complete working modules for final year projects, tailored to the specific requirements of each student or team. Our expert team assists in every stage, from ideation to implementation, ensuring high-quality outcomes.</p>
+                        <a href="#" class="btn btn-primary">Learn More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4 mb-4">
+                <div class="card">
+                    <img src="Patent Services.jpg" class="card-img-top img-fluid" alt="Patent Services">
+                    <div class="card-body">
+                        <h5 class="card-title">Patent Services:</h5>
+                        <p class="card-text">Intellectual property protection is vital. We assist in patent research, drafting, and filing to safeguard innovative ideas and technologies developed during projects. 
+                            Our team ensures all legal and technical requirements are met for a smooth and efficient patenting process, providing comprehensive support from start to finish.</p>
+                        <a href="#" class="btn btn-primary">Learn More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4 mb-4">
+                <div class="card">
+                    <img src="Journal Works.jpg" class="card-img-top img-fluid" alt="Journal Works">
+                    <div class="card-body">
+                        <h5 class="card-title">Journal Works:</h5>
+                        <p class="card-text">Publishing research findings in reputable journals enhances credibility and visibility.
+                            We offer support in preparing and submitting manuscripts to esteemed academic journals.</p>
+                        <a href="#" class="btn btn-primary">Learn More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4 mb-4">
+                <div class="card">
+                    <img src="Staff Development.png" class="card-img-top img-fluid" alt="Staff Development">
+                    <div class="card-body">
+                        <h5 class="card-title">Staff Development:</h5>
+                        <p class="card-text">Continuous learning is key to organizational growth. We provide training and workshops for staff members to enhance their 
+                            skills and stay updated with the latest advancements in their fields.</p>
+                        <a href="#" class="btn btn-primary">Learn More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4 mb-4">
+                <div class="card">
+                    <img src="Mini and Long-Term Courses.png" class="card-img-top img-fluid" alt="Mini and Long-Term Courses">
+                    <div class="card-body">
+                        <h5 class="card-title"> Mini and Long-Term Courses:</h5>
+                        <p class="card-text">Our curated courses cater to diverse skill levels and interests, ranging from short-term workshops 
+                        to comprehensive long-term programs. Participants gain practical insights and hands-on experience under the 
+                        guidance of industry experts.</p>
+                        <a href="#" class="btn btn-primary">Learn More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4 mb-4">
+            <div class="card">
+                <img src="Coding Works.jpeg" class="card-img-top img-fluid" alt="Coding works">
+                <div class="card-body">
+                    <h5 class="card-title"> Coding works:</h5>
+                    <p class="card-text">Our skilled developers offer coding support across various programming languages and platforms, 
+                        ensuring robust and efficient implementations for project requirements.We also provide debugging and optimization 
+                        services to improve the performance and reliability of your code.</p>
+                    <a href="#" class="btn btn-primary">Learn More</a>
+                </div>
+            </div>
+        </div>
     </main>
-    <footer>
+    <footer class="bg-light text-center py-3">
         <p>&copy; 2024 Your Company. All rights reserved.</p>
     </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
